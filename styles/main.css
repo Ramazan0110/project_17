@@ -60,7 +60,7 @@
     transform: translateY(-50%); 
     width: 15px;
     height: 15px; 
-    background-image: url(/images/marker-light.svg) ; 
+    background-image: url(../images/marker-light.svg) ; 
     background-size: cover; 
     background-position: center; 
 }
@@ -72,7 +72,7 @@
     transform: translateY(-50%); 
     width: 15px;
     height: 15px; 
-    background-image: url(/images/marker-dark.svg) ; 
+    background-image: url(../images/marker-dark.svg) ; 
     background-size: cover; 
     background-position: center; 
 }
@@ -135,6 +135,8 @@
 }
 .colored-text {
     position: relative;
+    display: inline-block;
+    
      
 }
 
@@ -143,9 +145,10 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 10px;
-    width:13.5rem; 
-    height: 0.3em; 
+    
+    bottom: 20px;
+    width:100%; 
+    height: 15px; 
     background-color: var(--accent-color); 
     z-index: -1; 
 }
